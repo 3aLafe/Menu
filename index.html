@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>3a Lafe</title>
+  <meta content="" name="description">
+  <meta content=""name="keywords">
+
+
+  <!-- Favicons -->
+  <link href="" rel="icon">
+  <link href="" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+  <!-- ======= Menu Section ======= -->
+  <section id="menu" class="menu">
+    <div class="container">
+
+      <div class="section-title">
+        <h6><img class="img-fluid" src="assets/logo.jpg" ></span></h2>
+         
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="menu-flters">
+            <li data-filter="*" English="Show All" Arabic="Show All" class="filter-active">Show All</li>
+            <li data-filter=".filter-breakfast" class="boldinios"  data-english-name="Breakfast" data-arabic-name="ترويقة">Breakfast</li>
+            <li data-filter=".filter-sandwiches" class="boldinios" data-english-name="Sandwiches" data-arabic-name="سندويش">Sandwiches</li>
+            <li data-filter=".filter-snacks" class="boldinios" data-english-name="Snacks" data-arabic-name="عصرونية">Snacks</li>
+            <li data-filter=".filter-desserts" class="boldinios" data-english-name="Desserts" data-arabic-name="حلويات">Desserts</li>
+            <li data-filter=".filter-drinks" class="boldinios" data-english-name="Drinks" data-arabic-name="مشروبات">Drinks</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="language-toggle">
+        <button id="toggle-arabic" onclick="toggleLanguage('Arabic')">Arabic</button>
+        <button id="toggle-english" class="active" onclick="toggleLanguage('English')">English</button>
+      </div>
+
+
+
+      <div class="row menu-container">
+
+
+
+
+        <div class="col-lg-12 menu-item filter-breakfast">
+          <br>
+          <div class="boldinios text-center languagefun2" id="Head" data-english-name="Breakfast" data-arabic-name="ترويقة">
+            Breakfast
+          </div>
+          
+        </div>
+
+        <div class="col-lg-6 menu-item filter-breakfast languagefun">
+          <div class="menu-content" data-english-name="Eggs & Soujouk" data-arabic-name="بيض وسجق">
+            Eggs & Soujouk <span data-english-price="300.000 L.L." data-arabic-price="300.000 L.L." >300.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="EGGS, SOUJOUK, TOMATO, PICKLES"
+            data-arabic-ingredients="بيض، سجق، بندورة، كبيس">
+            EGGS, SOUJOUK, TOMATO, PICKLES
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-breakfast languagefun" >
+          <div class="menu-content" data-english-name="Creamy Egg" data-arabic-name="بيض بكريمة">
+            Creamy Egg <span>200.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="EGGS, CREAM, TOMATO, PICKLES"
+            data-arabic-ingredients="بيض، كريمة, بندورة، كبيس">
+            EGGS, CREAM, TOMATO, PICKLES
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-breakfast languagefun" >
+          <div class="menu-content" data-english-name="Pesto Halloumi"
+          data-arabic-name="حلوم وحبق">
+            Pesto Halloumi <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="GRILLED HALLOUMI, PESTO, TOMATO, ROCCA"
+            data-arabic-ingredients="حلوم مشوي، بيستو، بندورة، روكا">
+            GRILLED HALLOUMI, PESTO, TOMATO, ROCCA
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-breakfast languagefun" >
+          <div class="menu-content" data-english-name="Fig Jam & Halloumi"
+          data-arabic-name="حلوم مشوي، مرقة التين">
+            Fig Jam & Halloumi <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="GRILLED HALLOUMI, FIG JAM, ROCCA"
+            data-arabic-ingredients="حلوم مشوي، مرقة التين، روكا">
+            GRILLED HALLOUMI, FIG JAM, ROCCA
+          </div>
+        </div>
+
+        
+        <div class="col-lg-12 menu-item filter-breakfast">
+          <br>
+        </div>
+
+
+
+        <div class="col-lg-12 menu-item filter-sandwiches">
+          <br>
+          <div class="boldinios text-center languagefun2" id="Head" data-english-name="Sandwiches" data-arabic-name="سندويش">
+            Sandwiches
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Kafta" data-arabic-name="كفتة">
+            Kafta <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="KAFTA, MAYONNAISE, TOMATO, PICKLES"
+            data-arabic-ingredients="كفتة، مايونيز، بندورة، كبيس">
+            KAFTA, MAYONNAISE, TOMATO, PICKLES
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Kafta 3a Lafe" data-arabic-name="كفتة ع لفة">
+            Kafta 3a Lafe <span>400.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="KAFTA, HUMMUS, BIWAZ, TOMATO, PICKLES, POMEGRANATE MOLASSE"
+            data-arabic-ingredients="كفتة، حمص، بيواز، بندورة، دبس رمان">
+            KAFTA, HUMMUS, BIWAZ, TOMATO, PICKLES, POMEGRANATE MOLASSE
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Soujouk Sandwich" data-arabic-name="سجق 
+          فرنجي" >
+            Soujouk Sandwich <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="SAUSAGES, MAYONNAISE, TOMATO, PICKLES"
+            data-arabic-ingredients="سجق، مايونيز، بندورة، كبيس">
+            SAUSAGES, MAYONNAISE, TOMATO, PICKLES
+          </div>
+        </div> 
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Soujouk Arabic bread" data-arabic-name="سجق 
+          خبز عربي" >
+            Soujouk Arabic Bread <span>450.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="SAUSAGES, MAYONNAISE, TOMATO, PICKLES"
+            data-arabic-ingredients="سجق، مايونيز، بندورة، كبيس">
+            SAUSAGES, MAYONNAISE, TOMATO, PICKLES
+          </div>
+        </div> 
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Makanek Sandwich" data-arabic-name="مقانق 
+          فرنجي" >
+            Makanek Sandwich <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="SAUSAGES, MAYONNAISE, TOMATO, PICKLES"
+            data-arabic-ingredients="مقانق, مايونيز، بندورة، كبيس">
+            SAUSAGES, MAYONNAISE, TOMATO, PICKLES
+          </div>
+        </div> 
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Makanek Arabic bread" data-arabic-name="مقانق 
+          خبز عربي" >
+          Makanek Arabic Bread  <span>450.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="SAUSAGES, MAYONNAISE, TOMATO, PICKLES"
+            data-arabic-ingredients="مقانق, مايونيز، بندورة، كبيس">
+            SAUSAGES, MAYONNAISE, TOMATO, PICKLES
+          </div>
+        </div> 
+
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Shrimps" data-arabic-name="قريدس">
+            Shrimps <span>450.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="SHRIMPS, SAUCE, TOMATO, ROCCA"
+            data-arabic-ingredients="قريدس، صلصة، بندورة، روكا">
+            SHRIMPS, SAUCE, TOMATO, ROCCA
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Chicken Liver" data-arabic-name="سودة دجاج">
+            Chicken Liver <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="CHICKEN LIVER, GARLIC, TOMATO, PICKLES, POMEGRANATE MOLASSE"
+            data-arabic-ingredients="سودة، ثوم، بندورة، كبيس، دبس رمان">
+            CHICKEN LIVER, GARLIC, TOMATO, PICKLES, POMEGRANATE MOLASSE
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Nkhaat" data-arabic-name="نخاعات">
+            Nkhaat <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="NKHAAT, MAYONNAISE, TOMATO, PICKLES, LEMON"
+            data-arabic-ingredients="نخاعات، مايونيز، بندورة، كبيس، حامض">
+            NKHAAT, MAYONNAISE, TOMATO, PICKLES, LEMON
+          </div>
+        </div>
+        
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Basterma" data-arabic-name="بسترما">
+            Basterma <span>400.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="BASTERMA, SAUCE, TOMATO, PICKLES, LETTUCE"
+            data-arabic-ingredients="بسترما, صلصة، بندورة، كبيس، خس">
+            BASTERMA, SAUCE, TOMATO, PICKLES, LETTUCE
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Rosto" data-arabic-name="روستو">
+            Rosto <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="ROSTO, SAUCE, TOMATO, PICKLES, LETTUCE"
+            data-arabic-ingredients="روستو، صلصة، بندورة، كبيس، خس">
+            ROSTO, SAUCE, TOMATO, PICKLES, LETTUCE
+          </div>
+        </div>
+        
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Safiha" data-arabic-name="صفيحة">
+            Safiha <span>500.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="HAM, HUMMUS, BIWAZ, TOMATO, POMEGRANATE MOLASSE"
+            data-arabic-ingredients="لحمة متبلة، حمص، بيواز، بندورة، دبس رمان">
+            HAM, HUMMUS, BIWAZ, TOMATO, POMEGRANATE MOLASSE
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Chicken" data-arabic-name="دجاج">
+            Chicken <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="GRILLED CHICKEN, SAUCE, GARLIC, PICKLES"
+            data-arabic-ingredients="دجاج مشوي، صلصة، ثوم، كبيس">
+            GRILLED CHICKEN, SAUCE, GARLIC, PICKLES
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Tandouri Tawouk" data-arabic-name="تندوري طاووق">
+            Tandouri Tawouk <span>350.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="TANDOURI TAWOUK, GARLIC, PICKLES"
+            data-arabic-ingredients="طاووق، ثوم، كبيس">
+            TANDOURI TAWOUK, GARLIC, PICKLES
+          </div>
+        </div>
+        
+
+        <div class="col-lg-6 menu-item filter-sandwiches languagefun">
+          <div class="menu-content" data-english-name="Lamb Fatayel" data-arabic-name="فتايل غنم">
+            Lamb Fatayel <span>450.000 L.L.</span>
+          </div>
+          <div class="menu-ingredients" data-english-ingredients="FATAYEL, TAHINI SAUCE, TOMATO, PICKLES, ROCCA"
+            data-arabic-ingredients="فتايل، طرطور، بندورة، روكا">
+            FATAYEL, TAHINI SAUCE, TOMATO, PICKLES, ROCCA
+          </div>
+        </div>
+        
+
+        <div class="col-lg-12 menu-item filter-sandwiches">
+          <br>
+        </div>
+
+
+
+        <div class="col-lg-12 menu-item filter-snacks">
+          <br>
+          <div class="boldinios text-center languagefun2" id="Head" data-english-name="Snacks" data-arabic-name="عصرونية">
+            Snacks
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-snacks languagefun2">
+          <div class="menu-content" data-english-name="Banana, Cream, Honey" data-arabic-name="موز ،كريمة، عسل">
+            Banana, Cream, Honey <span>200.000 L.L.</span>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-6 menu-item filter-snacks languagefun2">
+          <div class="menu-content" data-english-name="Banana, Cream, Chocolate" data-arabic-name="موز ،كريمة، شوكولاتة">
+            Banana, Cream, Chocolate <span>200.000 L.L.</span>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-6 menu-item filter-snacks languagefun2">
+          <div class="menu-content" data-english-name="Banana, Halawa, Honey" data-arabic-name="موز ،حلاوة، عسل">
+            Banana, Halawa, Honey <span>250.000 L.L.</span>
+          </div>
+        </div>
+        
+
+
+
+        <div class="col-lg-12 menu-item filter-snacks">
+          <br>
+        </div>
+
+
+
+        <div class="col-lg-12 menu-item filter-desserts">
+          <br>
+          <div class="boldinios text-center languagefun2" id="Head" data-english-name="Desserts" data-arabic-name="حلويات">
+            Desserts
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-desserts languagefun2">
+          <div class="menu-content" data-english-name="Mouhalabiyi" data-arabic-name="مهلبية">
+            Mouhalabiyi <span>100.000 L.L.</span>
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-desserts languagefun2">
+          <div class="menu-content" data-english-name="Riz b Hallib" data-arabic-name="رز بحليب">
+            Riz b Hallib <span>100.000 L.L.</span>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-6 menu-item filter-desserts languagefun2">
+          <div class="menu-content" data-english-name="Layali Loubnan" data-arabic-name="ليالي لبنان">
+            Layali Loubnan <span>100.000 L.L.</span>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-12 menu-item filter-desserts">
+          <hr>
+        </div>
+
+        <div class="col-lg-12 menu-item filter-drinks">
+          <br>
+          <div class="boldinios text-center languagefun2" id="Head" data-english-name="Drinks" data-arabic-name="مشروبات">
+            Drinks
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-drinks languagefun2">
+          <div class="menu-content" data-english-name="Lemonade" data-arabic-name="عصير ليمون">
+            Lemonade <span>150.000 L.L.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-drinks languagefun2">
+          <div class="menu-content" data-english-name="Orange Juice" data-arabic-name="عصير البرتقال">
+            Orange Juice <span>150.000 L.L.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-drinks languagefun2">
+          <div class="menu-content" data-english-name="Water Small" data-arabic-name="ماء صغير">
+            Water Small <span>50.000 L.L.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-drinks languagefun2">
+          <div class="menu-content" data-english-name="Soft Drink" data-arabic-name="مشروب غازي">
+            Soft Drink <span>100.000 L.L.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-drinks languagefun2">
+          <div class="menu-content" data-english-name="Sparkling Water" data-arabic-name="مياه غازية">
+            Sparkling Water <span>100.000 L.L.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-drinks languagefun2">
+          <div class="menu-content" data-english-name="Iran Yogurt" data-arabic-name="لبن عيران">
+            Iran Yogurt <span>150.000 L.L.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 menu-item filter-drinks languagefun2">
+          <div class="menu-content" data-english-name="Goat Yogurt" data-arabic-name="لبن ماعز">
+            Goat Yogurt <span>200.000 L.L.</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-12 menu-item filter-drinks">
+          <hr>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </section><!-- End Menu Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>3a Lafe </span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by Antonio Kozhaya Makary
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+
+function toggleLanguage(language) {
+  // Select the menu item with id="languagefun"
+  var menuItems = document.querySelectorAll('.languagefun');
+
+  if (!menuItems) {
+    console.warn('Menu item with id="languagefun" not found.');
+    return;
+  }
+
+    // Loop through each menu item
+    menuItems.forEach(function(menuItem) {
+    // Select menu content and ingredients elements within the current menuItem
+    var menuContent = menuItem.querySelector('.menu-content');
+    var menuIngredients = menuItem.querySelector('.menu-ingredients');
+
+    // Ensure menuContent and menuIngredients are not null before proceeding
+    if (!menuContent || !menuIngredients) {
+      console.warn('Menu content or ingredients not found for:', menuItem);
+      return; // Skip this item if elements are not found
+    }
+
+    // Get the correct language attribute values based on 'language' parameter
+    var nameAttr = (language === 'Arabic') ? menuContent.getAttribute('data-arabic-name') : menuContent.getAttribute('data-english-name');
+    var ingredientsAttr = (language === 'Arabic') ? menuIngredients.getAttribute('data-arabic-ingredients') : menuIngredients.getAttribute('data-english-ingredients');
+
+    // Update menu content and ingredients with the new language values
+    menuContent.childNodes[0].nodeValue = nameAttr ; 
+    menuIngredients.textContent = ingredientsAttr;
+  });
+
+
+
+
+
+
+
+  var menuItems = document.querySelectorAll('.languagefun2');
+
+if (!menuItems) {
+  console.warn('Menu item with id="languagefun" not found.');
+  return;
+}
+
+  // Loop through each menu item
+  menuItems.forEach(function(menuItem) {
+  // Select menu content and ingredients elements within the current menuItem
+  var menuContent = menuItem.querySelector('.menu-content');
+
+  // Ensure menuContent and menuIngredients are not null before proceeding
+  if (!menuContent) {
+    console.warn('Menu content or ingredients not found for:', menuItem);
+    return; // Skip this item if elements are not found
+  }
+
+  // Get the correct language attribute values based on 'language' parameter
+  var nameAttr = (language === 'Arabic') ? menuContent.getAttribute('data-arabic-name') : menuContent.getAttribute('data-english-name');
+ 
+  // Update menu content and ingredients with the new language values
+  menuContent.childNodes[0].nodeValue = nameAttr ; 
+});
+
+
+
+var Names = document.querySelectorAll('.boldinios');
+
+if (!Names) {
+  console.warn('Menu item with id="languagefun" not found.');
+  return;
+}
+
+  // Loop through each menu item
+  Names.forEach(function(name) {
+  // Select menu content and ingredients elements within the current menuItem
+
+
+  // Get the correct language attribute values based on 'language' parameter
+  var nameAttr = (language === 'Arabic') ? name.getAttribute('data-arabic-name') : name.getAttribute('data-english-name');
+ 
+  // Update menu content and ingredients with the new language values
+  name.textContent = nameAttr; 
+});
+
+
+
+
+  // Update active button styling
+  var activeButton = document.getElementById('toggle-' + language.toLowerCase());
+  document.querySelectorAll('.language-toggle button').forEach(function(btn) {
+    btn.classList.remove('active');
+  });
+  activeButton.classList.add('active');
+}
+ 
+ 
+ </script>
+
+</body>
+
+</html>
